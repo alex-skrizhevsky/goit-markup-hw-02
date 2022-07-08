@@ -109,8 +109,15 @@ body {
   color: var(--title-txt-color);
   background-color: #f5f4fa;
 }
-.btn:hover,
-.btn:focus {
+.hero-btn {
+  background-color: var(--blue-style-color);
+}
+.hero-btn:hover,
+.hero-btn:focus {
+  background-color: #188ce8;
+}
+.portf-btn:hover,
+.portf-btn:focus {
   color: var(--white-style-color);
   background-color: var(--blue-style-color);
 }
